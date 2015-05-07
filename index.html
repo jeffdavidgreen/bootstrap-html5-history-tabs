@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Bootstrap History Tabs Example</title>
+		<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
+	</head>
+	<body>
+        <div class="container">
+            <div role="tabpanel">
+                <!-- Nav tabs -->
+                <ul class="nav nav-tabs" role="tablist">
+                    <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
+                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
+                    <li role="presentation"><a href="#messages" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
+                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
+                </ul>
+                <!-- Tab panes -->
+                <div class="tab-content">
+                    <div role="tabpanel" class="tab-pane" id="home">Home Tab</div>
+                    <div role="tabpanel" class="tab-pane" id="profile">Profile Tab</div>
+                    <div role="tabpanel" class="tab-pane" id="messages">Messages Tab</div>
+                    <div role="tabpanel" class="tab-pane" id="settings">Settings Tab</div>
+                </div>
+            </div>
+        </div>
+		<script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
+		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
+		<script src="bootstrap-history-tabs.js" charset="utf-8"></script>
+		<script>
+    		$(document).ready(function() {
+        		// Activate the history tabs.
+                $('a[data-toggle="tab"]').historyTabs();
+    		});
+		</script>
+	</body>
+</html>

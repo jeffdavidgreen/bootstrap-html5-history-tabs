@@ -1,0 +1,31 @@
+{
+  "name": "bootstrap-history-tabs",
+  "version": "1.0.0",
+  "description": "Bootstrap tabs with that keeps track of the history using the HTML5 History API",
+  "main": "index.html",
+  "dependencies": {
+    "bootstrap": "^3.3.4",
+    "jquery": "^2.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jeffdavidgreen/bootstrap-history-tabs.git"
+  },
+  "keywords": [
+    "jquery",
+    "bootstrap",
+    "tabs",
+    "history",
+    "html5"
+  ],
+  "author": "Jeff Green",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/jeffdavidgreen/bootstrap-history-tabs/issues"
+  },
+  "homepage": "https://github.com/jeffdavidgreen/bootstrap-history-tabs"
+}
