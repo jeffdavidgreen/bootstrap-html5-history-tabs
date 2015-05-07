@@ -1,5 +1,5 @@
 # Bootstrap History Tabs
-Bootstrap tabs that keeps track of the history using the HTML5 History API
+Bootstrap tabs that keep track of the history using the HTML5 History API
 
 Requires jQuery and Bootstrap Tabs to work.
 
