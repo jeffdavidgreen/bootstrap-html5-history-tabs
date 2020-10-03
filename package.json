@@ -5,7 +5,7 @@
   "main": "index.html",
   "dependencies": {
     "bootstrap": "^3.3.4",
-    "jquery": "^2.1.4"
+    "jquery": "^3.5.1"
   },
   "devDependencies": {},
   "scripts": {
