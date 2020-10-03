@@ -32,4 +32,4 @@ This uses the default bootstrap implementation shown on their site. The links sh
 </div>
 ```
 
-When clicking on #settings link, you will see the URL update to be baseurl/#settings. If you have an active tab set, then that tab will begin the history and will be added to the URL immediately. On the load of the page, it will use the hash value in the URL in order to load the correct tab. On back and forward, it will use the current history state in order to load the URL.
+When clicking on #settings link, you will notice the URL update to be baseurl/#settings. If you have an active tab set, then that tab will begin the history and will be added to the URL immediately. On the load of the page, it will use the hash value in the URL in order to load the correct tab. On back and forward, it will use the current history state in order to load the URL.
