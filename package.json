@@ -7,9 +7,13 @@
     "bootstrap": "^3.3.4",
     "jquery": "^3.5.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "parcel-bundler": "^1.12.4"
+  },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "parcel index.html --out-dir dist",
+    "build": "parcel build index.html --out-dir build",
+    "clean": "rm -rf .cache dist dist-dev"
   },
   "repository": {
     "type": "git",
