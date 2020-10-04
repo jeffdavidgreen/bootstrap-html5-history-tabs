@@ -1,19 +1,18 @@
 {
   "name": "bootstrap-history-tabs",
-  "version": "1.0.0",
+  "version": "2.0.0",
   "description": "Bootstrap tabs with that keeps track of the history using the HTML5 History API",
   "main": "index.html",
-  "dependencies": {
-    "bootstrap": "^3.3.4",
-    "jquery": "^3.5.1"
-  },
+  "dependencies": {},
   "devDependencies": {
-    "parcel-bundler": "^1.12.4"
+    "parcel-bundler": "^1.12.4",
+    "prettier": "^2.1.2"
   },
   "scripts": {
     "start": "parcel index.html --out-dir dist",
     "build": "parcel build index.html --out-dir build",
-    "clean": "rm -rf .cache dist dist-dev"
+    "clean": "rm -rf .cache dist build",
+    "format": "prettier --write . --single-quote"
   },
   "repository": {
     "type": "git",

@@ -1,7 +1,7 @@
 name: Build and Deploy
 on:
   push:
-    branches: [ master, add-github-pages ]
+    branches: [master, add-github-pages]
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest

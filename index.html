@@ -1,38 +1,89 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<title>Bootstrap History Tabs Example</title>
-		<meta charset="utf-8">
-    		<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-		<link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" type="text/css" media="screen" charset="utf-8">
-	</head>
-	<body>
-        <div class="container">
-            <div role="tabpanel">
-                <!-- Nav tabs -->
-                <ul class="nav nav-tabs" role="tablist">
-                    <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-                    <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-                    <li role="presentation"><a href="#messages" class="active" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-                    <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-                </ul>
-                <!-- Tab panes -->
-                <div class="tab-content">
-                    <div role="tabpanel" class="tab-pane" id="home">Home Tab</div>
-                    <div role="tabpanel" class="tab-pane" id="profile">Profile Tab</div>
-                    <div role="tabpanel" class="tab-pane active" id="messages">Messages Tab</div>
-                    <div role="tabpanel" class="tab-pane" id="settings">Settings Tab</div>
-                </div>
-            </div>
+  <head>
+    <title>Bootstrap History Tabs Example</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"
+      integrity="sha384-HSMxcRTRxnN+Bdg0JdbxYKrThecOKuH5zCYotlSAcp1+c8xmyTe9GYg1l9a69psu"
+      crossorigin="anonymous"
+    />
+  </head>
+
+  <body>
+    <div class="container">
+      <div role="tabpanel">
+        <!-- Nav tabs -->
+        <ul class="nav nav-tabs" role="tablist">
+          <li role="presentation">
+            <a href="#home" aria-controls="home" role="tab" data-toggle="tab">
+              Home
+            </a>
+          </li>
+          <li role="presentation">
+            <a
+              href="#profile"
+              aria-controls="profile"
+              role="tab"
+              data-toggle="tab"
+            >
+              Profile
+            </a>
+          </li>
+          <li role="presentation">
+            <a
+              href="#messages"
+              class="active"
+              aria-controls="messages"
+              role="tab"
+              data-toggle="tab"
+            >
+              Messages
+            </a>
+          </li>
+          <li role="presentation">
+            <a
+              href="#settings"
+              aria-controls="settings"
+              role="tab"
+              data-toggle="tab"
+            >
+              Settings
+            </a>
+          </li>
+        </ul>
+        <!-- Tab panes -->
+        <div class="tab-content">
+          <div role="tabpanel" class="tab-pane" id="home">Home Tab</div>
+          <div role="tabpanel" class="tab-pane" id="profile">Profile Tab</div>
+          <div role="tabpanel" class="tab-pane active" id="messages">
+            Messages Tab
+          </div>
+          <div role="tabpanel" class="tab-pane" id="settings">Settings Tab</div>
         </div>
-		<script src="node_modules/jquery/dist/jquery.min.js" charset="utf-8"></script>
-		<script src="node_modules/bootstrap/dist/js/bootstrap.min.js" charset="utf-8"></script>
-		<script src="bootstrap-history-tabs.js" charset="utf-8"></script>
-		<script>
-    		$(document).ready(function() {
-        		// Activate the history tabs.
-                $('a[data-toggle="tab"]').historyTabs();
-    		});
-		</script>
-	</body>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs="
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"
+      integrity="sha384-aJ21OjlMXNL5UyIl/XNwTMqvzeRMZH2w8c5cRVpzpU8Y5bApTppSuUkhZXN0VxHd"
+      crossorigin="anonymous"
+    ></script>
+    <script src="bootstrap-history-tabs.js" charset="utf-8"></script>
+    <script>
+      $(function () {
+        // Activate the history tabs.
+        $('a[data-toggle="tab"]').historyTabs();
+      });
+    </script>
+  </body>
 </html>
