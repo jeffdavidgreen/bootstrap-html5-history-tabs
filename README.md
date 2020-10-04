@@ -1,4 +1,5 @@
 # Bootstrap HTML5 History Tabs
+
 Bootstrap tabs that keep track of the history using the HTML5 History API
 
 Requires jQuery and Bootstrap Tabs to work.
@@ -15,20 +16,42 @@ This uses the default bootstrap implementation shown on their site. The links sh
 
 ```html
 <div role="tabpanel">
-    <!-- Nav tabs -->
-    <ul class="nav nav-tabs" role="tablist">
-        <li role="presentation"><a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a></li>
-        <li role="presentation"><a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">Profile</a></li>
-        <li role="presentation"><a href="#messages" class="active" aria-controls="messages" role="tab" data-toggle="tab">Messages</a></li>
-        <li role="presentation"><a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">Settings</a></li>
-    </ul>
-    <!-- Tab panes -->
-    <div class="tab-content">
-        <div role="tabpanel" class="tab-pane" id="home">Home Tab</div>
-        <div role="tabpanel" class="tab-pane" id="profile">Profile Tab</div>
-        <div role="tabpanel" class="tab-pane active" id="messages">Messages Tab</div>
-        <div role="tabpanel" class="tab-pane" id="settings">Settings Tab</div>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li role="presentation">
+      <a href="#home" aria-controls="home" role="tab" data-toggle="tab">Home</a>
+    </li>
+    <li role="presentation">
+      <a href="#profile" aria-controls="profile" role="tab" data-toggle="tab">
+        Profile
+      </a>
+    </li>
+    <li role="presentation">
+      <a
+        href="#messages"
+        class="active"
+        aria-controls="messages"
+        role="tab"
+        data-toggle="tab"
+      >
+        Messages
+      </a>
+    </li>
+    <li role="presentation">
+      <a href="#settings" aria-controls="settings" role="tab" data-toggle="tab">
+        Settings
+      </a>
+    </li>
+  </ul>
+  <!-- Tab panes -->
+  <div class="tab-content">
+    <div role="tabpanel" class="tab-pane" id="home">Home Tab</div>
+    <div role="tabpanel" class="tab-pane" id="profile">Profile Tab</div>
+    <div role="tabpanel" class="tab-pane active" id="messages">
+      Messages Tab
     </div>
+    <div role="tabpanel" class="tab-pane" id="settings">Settings Tab</div>
+  </div>
 </div>
 ```
 
