@@ -12,7 +12,7 @@
   },
   "scripts": {
     "start": "parcel index.html --out-dir dist",
-    "build": "parcel build index.html --out-dir build",
+    "build": "parcel build index.html --out-dir build --public-url bootstrap-html5-history-tabs",
     "clean": "rm -rf .cache dist dist-dev"
   },
   "repository": {
